@@ -8,7 +8,7 @@ module.exports = function (app) {
         console.log(listLimitUrl);
 
         let latestCompanies = await database.companyCheck();
-        res.json(latestCompanies);
+        res.json(latestCompanies);x
     });
 
 };
